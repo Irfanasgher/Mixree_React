@@ -1,0 +1,59 @@
+header {
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  /* background-color: black; */
+  padding: 0 5rem;
+  z-index: 4;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  .menuItems > a {
+    color: white !important;
+    font-weight: lighter;
+    margin-left: 2rem;
+    height: 100%;
+    text-decoration: none;
+    // background-color: yellowgreen;
+  }
+  .menuItems > a.btn {
+    background-color: #3a77f6;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-weight: 600;
+    transition: ease 0.5s;
+    &:hover {
+      background-color: #ebb41f;
+      color: black !important;
+      transition: ease 0.5s;
+      cursor: pointer;
+    }
+  }
+  .menuItems > a.navItem {
+    line-height: 2.4;
+    padding: 0 1rem;
+    &:before {
+      display: flex;
+      content: "";
+      left: 0;
+      right: 0;
+      border: 1px solid transparent;
+      transition: all 0.4s ease-in-out;
+    }
+    &:hover:before {
+      border-color: white;
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
+  .dehazeIcon {
+    color: white;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0 1rem;
+  }
+}

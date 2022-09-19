@@ -1,0 +1,124 @@
+#scroll {
+  p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    /* Mixrre / Gray 2 */
+
+    color: #b7babf;
+  }
+  .button-group {
+    height: 80px;
+    width: 100%;
+    border-radius: 50px;
+    background: #fdfdfd;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.04), 0px 16px 32px rgba(0, 0, 0, 0.04);
+    margin-top: -40px;
+    padding-right: 0;
+    padding-left: 70px;
+    // overflow: hidden;
+  }
+  .dropDownList {
+    min-width: 100px;
+    background: transparent;
+    border: 0;
+    color: #3a77f6;
+    font-weight: 600;
+    option {
+      color: #7e8084;
+      font-weight: 400;
+    }
+  }
+  .optionsLabell {
+    color: #7e8084;
+    font-size: 0.6rem;
+  }
+  .vl {
+    border-right: 1.5px solid #dcdddf;
+    height: 50px;
+  }
+  .check {
+    height: 100%;
+    width: 33%;
+    background-color: #faca43;
+    color: black !important;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    pointer-events: all;
+    padding: 1rem;
+    p {
+      color: #2f3034;
+      font-weight: 500;
+      font-size: 1rem;
+      margin-bottom: 0;
+    }
+  }
+  .check:hover {
+    background-color: #ebb41f;
+  }
+  select:focus {
+    outline: none !important;
+    background: transparent;
+  }
+  .check:hover {
+    cursor: pointer;
+  }
+  .scrollDown:hover {
+    cursor: pointer;
+  }
+  .img-group {
+    min-height: 100vh;
+    img {
+      min-height: 80vh;
+    }
+    h3 {
+      font-size: 2.5rem;
+    }
+    p {
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+    .dots {
+      align-self: flex-start;
+      padding-top: 4rem;
+      img {
+        min-height: 20px;
+        max-height: 100px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #scroll {
+    .image {
+      width: 80%;
+      height: auto;
+      object-fit: contain;
+    }
+    .button-group {
+      height: 60px;
+      margin-top: -30px;
+      width: 80%;
+      padding-left: 30px;
+      margin-left: 10%;
+      font-size: 8px !important;
+      // overflow: hidden;
+    }
+    .dropDownList {
+      width: 60px;
+    }
+    .check {
+      width: 40%;
+      p {
+        color: black;
+        font-size: 10px;
+      }
+    }
+  }
+}

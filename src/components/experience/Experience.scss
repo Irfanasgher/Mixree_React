@@ -1,0 +1,47 @@
+#experience {
+	background-color: #e6ecf9;
+	h1 {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 40px;
+		line-height: 58px;
+		/* identical to box height, or 145% */
+
+		text-align: center;
+		letter-spacing: 0.02em;
+
+		/* Mixrre / Black */
+
+		color: #2f3034;
+	}
+	p {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		line-height: 36px;
+		/* or 180% */
+
+		text-align: center;
+		letter-spacing: 0.02em;
+
+		/* Mixrre / Gray 1 */
+
+		color: #7e8084;
+	}
+}
+
+@media (max-width: 450px) {
+	#experience {
+		h1 {
+			width: 300px;
+			font-size: 25px;
+			line-height: 30px;
+		}
+		p {
+			width: 300px;
+			font-size: 14px;
+			line-height: 20px;
+			margin-top: 20px;
+		}
+	}
+}

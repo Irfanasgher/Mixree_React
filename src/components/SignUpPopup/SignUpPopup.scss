@@ -1,0 +1,41 @@
+.popup-content {
+  padding: 2rem 3.5rem;
+  text-align: center;
+}
+.emailInput {
+  background-color: white;
+  padding: 0.5rem;
+  border: 1px solid #7e8084;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+  width: 70%;
+  height: 40px;
+}
+.emailSubmit {
+  width: 70%;
+  height: 40px;
+  margin-top: 1rem;
+  background-color: #faca43;
+  color: #2f3034;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
+.emailSubmit:hover {
+  background-color: #ebb41f;
+}
+
+.emailSubmit:focus {
+  outline: none;
+  background-color: #ebb41f;
+}
+@media (max-width: 450px) {
+  .emailInput {
+    width: 100%;
+    height: 40px;
+  }
+  .emailSubmit {
+    width: 100%;
+    height: 40px;
+  }
+}

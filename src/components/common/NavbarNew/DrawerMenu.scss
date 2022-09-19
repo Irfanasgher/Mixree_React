@@ -1,0 +1,89 @@
+@media (max-width: 991px) {
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    background-color: rgba($color: #000000, $alpha: 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: right;
+    // padding-right: 1rem;
+  }
+
+  .sidenav a.sideNavItem {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    margin-right: 1rem;
+    &:hover {
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white !important;
+    display: block;
+    transition: 0.3s;
+    margin-right: 1rem;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 2rem;
+    &:hover {
+      cursor: pointer;
+      color: white;
+    }
+    // margin-left: 50px;
+  }
+
+  .sidenav a.sideNavSignUp {
+    background-color: #3a77f6;
+    color: white;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-weight: 600;
+    transition: ease 0.5s;
+    pointer-events: all;
+
+    &:hover {
+      background-color: #ebb41f;
+      color: black !important;
+      transition: ease 0.5s;
+      cursor: pointer;
+    }
+  }
+  //   .OuterDiv {
+  //     position: fixed;
+  //     right: 0;
+  //     min-height: 100vh;
+  //     width: 300px;
+  //     background-color: rgba($color: #000000, $alpha: 0.8);
+  //     color: #212529;
+  //     transition: width 1s;
+  //     z-index: 1020;
+  //   }
+  //   .showBack {
+  //     display: block;
+  //     transition: 3s;
+  //   }
+  //   .CategoriesBox {
+  //     border: 1px solid #f0f0f0;
+  //     height: auto;
+  //     width: auto;
+  //   }
+}
